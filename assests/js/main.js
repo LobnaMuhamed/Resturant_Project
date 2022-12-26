@@ -56,18 +56,6 @@ allist.forEach(function (ele) {
     //Add Active Class To This Element
     this.classList.add("active");
   };
-  // $(window).scroll(function () {
-  //   let wScroll = $(window).scrollTop();
-  //   let myEl = $(ele).offset().top;
-  //   if (wScroll = myEl ) {
-  //     //Remove Active ClassFrom All Elements
-  //     allist.forEach(function (element) {
-  //       element.classList.remove("active");
-  //     });
-  //     //Add Active Class To This Element
-  //     this.classList.add("active");
-  //   }
-  // });
 });
 
 //*** Hover On Home Section
@@ -75,22 +63,6 @@ allist.forEach(function (ele) {
 MyHeader = document.querySelector("header .container");
 LeftArr = document.querySelector(".slide_icon i.left");
 RightArr = document.querySelector(".slide_icon i.right");
-// textSlider = document.querySelector(".texe_slider");
-
-// MyHeader.onmousemove = function() {
-// LeftArr.style.left= "30px"
-// RightArr.style.right = "30px";
-// }
-// MyHeader.onmouseleave = function () {
-//   LeftArr.style.left = "-100%";
-//   RightArr.style.right = "-100%";
-// };
-
-// $(".slide_icon i.left").click(function () {
-//   $(".texe_slider").fadeIn("slow", function () {
-//     $(".texe_slider").fadeOut("slow");
-//   });
-// });
 
 //*** OFF-SET BTN
 
@@ -112,9 +84,7 @@ $(".Slider .container").slideDown(3000, function () {
   $(".home-btns").slideDown(3000);
 });
 
-
 //Contact Section <<Scale Image >>
 
 const container = document.querySelector(".img_part");
 const img = document.querySelector(".img_part img");
-
